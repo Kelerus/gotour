@@ -141,7 +141,7 @@
 .search__form label {
     margin: 0;
     font-family: Montserrat;
-    font-style: italic;
+    font-style: normal;
     font-weight: bold;
     font-size: 18px;
     text-transform: uppercase;
@@ -155,7 +155,18 @@
 }
 
 .search__form input:last-child {
+    font-style: normal;
     background: #0040E3;
     color: white;
 }
 
+.search__form input:last-child:hover {
+    font-style: normal;
+    background: #07297e;
+    color: rgb(165, 164, 164);
+}
+
+.social__title h3 {
+    writing-mode: vertical-rl;
+    margin-left: 6px;
+}
